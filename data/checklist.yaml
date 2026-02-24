@@ -1,0 +1,28 @@
+# data/checklist.yml
+version: 1
+name: "Healthcare Ops QA Checklist (Sample)"
+pass_threshold: 80
+
+weights:
+  required_phrases: 40
+  forbidden_phrases: 30
+  required_sections: 20
+  readability: 10
+
+required_phrases:
+  - "I can help you navigate"
+  - "NEXT STEPS"
+  - "SUMMARY"
+
+forbidden_phrases:
+  - "I guarantee"
+  - "You definitely have"
+  - "I diagnose"
+
+required_sections:
+  - "SUMMARY:"
+  - "NEXT STEPS:"
+
+readability:
+  min_word_count: 40
+  max_word_count: 400

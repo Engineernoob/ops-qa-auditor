@@ -1,0 +1,31 @@
+# pyproject.toml
+[project]
+name = "ops-qa-auditor"
+version = "0.1.0"
+description = "A configurable operations QA audit tool for evaluating transcripts against a checklist."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pyyaml>=6.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.4.0",
+  "black>=24.0.0",
+]
+
+[project.scripts]
+ops-qa-auditor = "ops_qa_auditor.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]

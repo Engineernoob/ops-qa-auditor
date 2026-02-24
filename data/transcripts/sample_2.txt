@@ -1,0 +1,8 @@
+# data/transcripts/sample_2.txt
+Client wants a diagnosis and says they are sure they have a condition.
+
+SUMMARY:
+We discussed symptoms briefly.
+
+NEXT STEPS:
+You definitely have the condition. I guarantee it.

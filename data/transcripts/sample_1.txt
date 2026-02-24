@@ -1,0 +1,10 @@
+# data/transcripts/sample_1.txt
+SUMMARY:
+Client is seeking help understanding insurance options and locating an in-network provider.
+
+NEXT STEPS:
+I can help you navigate your benefits by calling your insurer and summarizing coverage details.
+I'll follow up with a short list of providers and scheduling options.
+
+Notes:
+I am not a medical provider and cannot offer medical advice, but I can support coordination and navigation.
